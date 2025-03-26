@@ -1,0 +1,39 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+@font-face {
+    font-family: 'myfonts';
+    src: url(./josefin-sans/JosefinSans-Bold.ttf);
+}
+
+body{
+    font-family: myfonts;
+}
+
+
+/* ## Colors */
+
+/* ### Primary */
+
+.collins{
+    background-color: #ce9797;
+    background-color: #f96262;
+    background-color: hsl(0, 6%, 24%);
+    background-image: linear-gradient(135deg, from #ffffff, to #fff5f5);
+    background-image: linear-gradient(135deg, from #f8bfbf, to #ee8c8c);
+}
+
+/* - Desaturated Red: hsl(0, 36%, 70%)
+- Soft Red: hsl(0, 93%, 68%) */
+/* 
+### Neutral
+
+- Dark Grayish Red: hsl(0, 6%, 24%)
+
+### Gradients
+
+- Linear, 135deg, from hsl(0, 0%, 100%), to hsl(0, 100%, 98%)
+- Linear, 135deg, from hsl(0, 80%, 86%), to hsl(0, 74%, 74%) */
